@@ -1,0 +1,54 @@
+git init
+
+git status
+touch add 
+git commit -m "Ajout d'un fichier"
+
+git clone (lien)
+
+git push //Poush vers github
+
+
+git branch "NomDeLaBranche"
+
+git checkout Branche
+
+git commit -m nomDuFichier
+
+git push -u origin master/
+
+Choisir une branche : git checkout NomDeLaBranche
+
+Fousionner une branche : git merge NomDeLa Branche en Restant sur master
+
+
+-----------------------------------------------------------------------------
+-Commandes de base
+Créer le repertoire
+git init
+git status
+
+	//Charger les fichiers en ligne:
+	git add fileName 	      // Choisir les fichiers à mettre en ligne
+	git commit -m "first commit" // Deuxième étape pour charger les fichiers
+
+	//Charger les fichiers modifiés exemple de index.php
+	git add index.php
+	git commit -m "Chargement du fichier modifié"
+
+	git log // historiques de toutes les modifications
+
+//BRANCH
+git branch  // lister les branches disponibles
+
+git branch bgcolor
+
+ git checkout NomDeLaBranche //Choisir une branche
+
+ git merge NomDeLa Branche en Restant sur master //Fousionner une branche
+
+ git branch -d bgcolor //Supprimer une branche
+
+git remote add origin https://github.com/marc2015/01.git
+
+git push -u origin master
