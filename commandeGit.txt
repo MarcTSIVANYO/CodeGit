@@ -22,6 +22,9 @@ Choisir une branche : git checkout NomDeLaBranche
 Fousionner une branche : git merge NomDeLa Branche en Restant sur master
 
 
+
+
+
 -----------------------------------------------------------------------------
 -Commandes de base
 Créer le repertoire
@@ -51,4 +54,26 @@ git branch bgcolor
 
 git remote add origin https://github.com/marc2015/01.git
 
-git push -u origin master
+git push -u origin master //Envoyer en ligne
+
+git pull origin master  //Récupérer le projet
+
+git push origin master -f
+
+
+this work for me
+
+git init
+
+git add --all
+
+git commit -m "name"
+
+git push origin master --force
+
+
+//SUPPRIMER FILES
+
+git rm file1.txt
+git commit -m "remove file1.txt"
+git push origin branch_name 
