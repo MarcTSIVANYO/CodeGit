@@ -98,3 +98,8 @@ git remote -v
  
  git checkout .
 
+//Création d'une autre branche
+
+git checkout -b "nomDeLaNouvelleBranche" "origin/master"
+
+git branch
