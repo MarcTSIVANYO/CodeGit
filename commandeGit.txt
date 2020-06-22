@@ -107,3 +107,12 @@ git branch
 //Fusion de deux branches
 git checkout brancheA
 git merge brancheB
+
+git branch -a
+# *master
+#  test
+#  remote/origin/master
+#  remote/origin/test
+
+git branch -d test
+# Deleted branch test (was ########)
