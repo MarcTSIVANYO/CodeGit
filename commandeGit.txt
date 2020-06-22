@@ -103,3 +103,7 @@ git remote -v
 git checkout -b "nomDeLaNouvelleBranche" "origin/master"
 
 git branch
+
+//Fusion de deux branches
+git checkout brancheA
+git merge brancheB
