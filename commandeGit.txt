@@ -116,3 +116,5 @@ git branch -a
 
 git branch -d test
 # Deleted branch test (was ########)
+
+git pull
