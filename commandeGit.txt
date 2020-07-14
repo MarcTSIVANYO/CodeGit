@@ -118,3 +118,5 @@ git branch -d test
 # Deleted branch test (was ########)
 
 git pull
+
+git remote rm origin
