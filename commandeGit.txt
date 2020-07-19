@@ -102,6 +102,8 @@ git remote -v
 
 git checkout -b "nomDeLaNouvelleBranche" "origin/master"
 
+git checkout -b myFeature dev //Create a new branch from dev branch
+
 git branch
 
 //Fusion de deux branches
@@ -120,3 +122,6 @@ git branch -d test
 git pull
 
 git remote rm origin
+
+git reverse
+
