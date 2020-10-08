@@ -136,7 +136,30 @@ git push origin --delete remoteBranchName
 ## TAGS
 
 Web site : https://git-scm.com/book/en/v2/Git-Basics-Tagging
-# Create tags
+## Create tags
 
-## $ git tag -a v1.4 -m "my version 1.4"
-## git show v1.4
+### git show v1.4
+## Tags annotés
+#### git tag -a v1.4 -m "my version 1.4"
+
+## Tags légers
+#### git tag v1.4-lw 
+
+## Répertorier les tags
+#### git tag 
+####  git tag -l *-rc*
+
+## Taguer de nouveau/Remplacer d'anciens tags
+### git tag -a -f v1.4
+
+## Partage : faire un push de tags vers un dépôt distant
+### git push origin v1.4
+
+## Faire un check-out de tags
+### git checkout v1.4
+
+## Supprimer des tags
+#### git tag -d v1 $ git tag v2 v3 
+#### git tag v1.4-lw 
+
+
