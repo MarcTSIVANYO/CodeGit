@@ -131,3 +131,12 @@ git branch -d localBranchName
 
 // delete branch remotely
 git push origin --delete remoteBranchName
+
+
+## TAGS
+
+Web site : https://git-scm.com/book/en/v2/Git-Basics-Tagging
+# Create tags
+
+## $ git tag -a v1.4 -m "my version 1.4"
+## git show v1.4
