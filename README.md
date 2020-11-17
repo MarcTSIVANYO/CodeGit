@@ -22,7 +22,11 @@ Choisir une branche : git checkout NomDeLaBranche
 Fousionner une branche : git merge NomDeLa Branche en Restant sur master
 
 
+// delete branch locally
+git branch -d localBranchName
 
+// delete branch remotely
+git push origin --delete remoteBranchName
 
 
 -----------------------------------------------------------------------------
