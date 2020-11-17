@@ -136,7 +136,13 @@ git branch -d localBranchName
 // delete branch remotely
 git push origin --delete remoteBranchName
 
-
+//Then run the following commands from the top folder of your Git repository:
+ ```bash
+git rm -r --cached .
+git add .
+git commit -m "fixed untracked files"
+git git push -u origin master
+ ```
 ## TAGS
 
 Web site : https://git-scm.com/book/en/v2/Git-Basics-Tagging
