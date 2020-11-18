@@ -153,6 +153,10 @@ Web site : https://git-scm.com/book/en/v2/Git-Basics-Tagging
 #### git tag -a v1.4 -m "my version 1.4"
 
 ## Tags légers
+
+ git config --global user.name "Tsivanyo Kodjo Nuwoza"
+ 
+ git config --global user.email "kodjo-nuwoza.tsivanyo@etudiant.univ-rennes1.fr"
 #### git tag v1.4-lw 
 
 ## Répertorier les tags
