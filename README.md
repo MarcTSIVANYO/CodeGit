@@ -142,7 +142,22 @@ git rm -r --cached .
 git add .
 git commit -m "fixed untracked files"
 git git push -u origin master
+
  ```
+
+## For commit one file
+
+git checkout master
+git checkout exp1 path/to/file_a
+git checkout exp2 path/to/file_b
+
+# Save these files as a stash
+git stash
+
+# Merge stash with master
+git merge stash
+
+
 ## TAGS
 
 Web site : https://git-scm.com/book/en/v2/Git-Basics-Tagging
