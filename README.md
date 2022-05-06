@@ -192,3 +192,7 @@ Web site : https://git-scm.com/book/en/v2/Git-Basics-Tagging
 #### git tag v1.4-lw 
 
 
+
+git fetch origin
+
+git checkout "Nom de la branche"
